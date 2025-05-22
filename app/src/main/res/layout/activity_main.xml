@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F6F64"
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:layout_width="312dp"
+        android:layout_height="264dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/lotecol_icon"
+        android:contentDescription="Icono dinero" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/iconImage"
+        android:layout_marginTop="40dp"
+        android:hint="Ingrese el usuario..."
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#888" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Ingrese la contraseña..."
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#888" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#5FC0A4"
+        android:text="INGRESAR"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button" />
+
+</RelativeLayout>

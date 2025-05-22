@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629027839527",
+    "project_id": "lotecol-5fdc6",
+    "storage_bucket": "lotecol-5fdc6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629027839527:android:77cf60234a21f2644ef802",
+        "android_client_info": {
+          "package_name": "com.loteria.lotecol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb-aak4toHFdJJ3iD-I4VSHnPO6G6ANjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
