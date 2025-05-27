@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Lotecol</string>
+    <string name="title_activity_cerrar_sesion">CerrarSesion</string>
 </resources>
