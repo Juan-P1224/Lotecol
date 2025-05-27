@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+    android:fitsSystemWindows="true"
     tools:context=".HomeActivity">
 
     <!-- Top Bar -->
@@ -23,13 +24,15 @@
 
         <TextView
             android:id="@+id/greetingText"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
             android:text="Lotecol"
             android:textSize="18sp"
             android:textColor="@android:color/white"
-            android:textStyle="bold"
-            android:layout_weight="1" />
+            android:textStyle="bold" />
+
         <!-- Placeholder for profile icon -->
 
 
