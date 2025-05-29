@@ -6,11 +6,12 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import android.content.Intent
-import android.graphics.Color
-import android.os.Build
-import androidx.core.content.ContextCompat
+
 
 class HomeActivity : ComponentActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
