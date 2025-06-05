@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                             startActivity(intent)
                             finish()
                         } else {
-                            Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show()
                         }
                     }
             }
